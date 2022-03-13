@@ -6,11 +6,15 @@
 /* Styles for the body */
 
 body {
+	
 	font-family: 'Quicksand', sans-serif;
 	color: #5B3D04;
 	font-weight: 400;
 	background-color: #f8f8fc;
 	font-style: normal;
+	background-image: radial-gradient(#F2F2F2, #F5C365);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 p{
 	font-family: 'Quicksand', sans-serif;
@@ -18,16 +22,27 @@ p{
 	font-weight: 400;
 	font-style: normal;	
 }
-h2 {
+
+h1{
 	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #F2A30F;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: 1px 1px #FCEED4;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
 	color: #5B3D04;	
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 28px;
     font-style: normal;
 }
 
 h4{
-font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #7F5506;	
 	font-weight: 700;
 	font-size: 20px;
@@ -35,35 +50,56 @@ font-family: 'Quicksand', sans-serif;
 }
 
 h5{
-font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #7F5506;	
 	font-weight: 400;
 	font-size: 18px;
-    font-style: italic;	
+    font-style: italic;		
 }	
+
+h7{
+	font-family: 'Oswald', sans-serif;
+	color: #FCEED4;	
+	font-weight: 400;
+	font-size: 18px;
+    font-style: normal;	
+	text-shadow: .5px .5px #F2A30F;
+	text-align: left;
+}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.resume-container{
+	box-shadow: 0px 10px 50px 1px #262626;
+	
+	
+	
+}
 .resume-header {
     background-color: #262626;
+	border-color: #F2A30F;  
+    border-width: .1em;
+  	border-style: solid;
+	border-bottom: none;
+	
 }
 
 .resume-main {
 	background-color: #F2F2F2;
+	border-color: #F2A30F;  
+    border-width: .1em;
+  	border-style: solid;
+	border-top: none;
+	border-right: none;
 }
 
 .resume-aside {
 	background-color: #F2A30F;
-}
-
-.funky-text {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 900;
-	font-size: 50px;
-	color: #F2A30F;
-	text-align: left;
-	text-decoration: underline;
-
+	border-color: #F2A30F;  
+    border-width: .1em;
+  	border-style: solid;
+	border-top: none;
+	border-left: none;
 }
 
 .tagline {
@@ -94,13 +130,14 @@ font-family: 'Quicksand', sans-serif;
 
 .language-progress{
 	background-color:#F5C365;
+	border-color: #FBE5BC;  
+    border-width: .10em;
+  	border-style: dashed;  
 }
 
 .language-level{
 	background-color:#FBE5BC;
-	border-color: #FBE5BC;  
-    border-width: .10em;
-  	border-style: solid;  
+	
 }
 
 
