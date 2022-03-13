@@ -6,29 +6,78 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+	font-family: 'Quicksand', sans-serif;
+	color: #5B3D04;
+	font-weight: 400;
 	background-color: #f8f8fc;
+	font-style: normal;
 }
+p{
+	font-family: 'Quicksand', sans-serif;
+	color: #f8f8fc;
+	font-weight: 400;
+	font-style: normal;	
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #5B3D04;	
+	font-weight: 400;
+	font-size: 28px;
+    font-style: normal;
+}
+
+h4{
+font-family: 'Quicksand', sans-serif;
+	color: #7F5506;	
+	font-weight: 700;
+	font-size: 20px;
+    font-style: normal;	
+}
+
+h5{
+font-family: 'Quicksand', sans-serif;
+	color: #7F5506;	
+	font-weight: 400;
+	font-size: 18px;
+    font-style: italic;	
+}	
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #262626;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #F2F2F2;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #F2A30F;
+}
+
+.funky-text {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #F2A30F;
+	text-align: left;
+	text-decoration: underline;
+
+}
+
+.tagline {
+	color: #F2F2F2;
+	text-align: left;
+	font-style: bold;
+	text-decoration: none;
+
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "-";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,16 +85,44 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #7F5506;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
 
+.language-progress{
+	background-color:#F5C365;
+}
+
+.language-level{
+	background-color:#FBE5BC;
+	border-color: #FBE5BC;  
+    border-width: .10em;
+  	border-style: solid;  
+}
+
+
 /* Styles for contact icons */
 
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+a:link {
+	color: #FBE5BC;
+
+}
+
+a:visited {
+	color: #F7CE83;
+
+}
+
+a:hover {
+	color: #5B3D04;
+	background-color: #F5C365;
+
 }
