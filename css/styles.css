@@ -77,8 +77,8 @@ h7{
 }
 .resume-header {
     background-color: #262626;
-	border-color: #F2A30F;  
-    border-width: .1em;
+	border-color: #F2A30f;  
+    border-width: .3em;
   	border-style: solid;
 	border-bottom: none;
 	
@@ -87,7 +87,7 @@ h7{
 .resume-main {
 	background-color: #F2F2F2;
 	border-color: #F2A30F;  
-    border-width: .1em;
+    border-width: .3em;
   	border-style: solid;
 	border-top: none;
 	border-right: none;
@@ -96,7 +96,7 @@ h7{
 .resume-aside {
 	background-color: #F2A30F;
 	border-color: #F2A30F;  
-    border-width: .1em;
+    border-width: .3em;
   	border-style: solid;
 	border-top: none;
 	border-left: none;
